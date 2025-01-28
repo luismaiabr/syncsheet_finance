@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "finance web scrap"
+version = "0.1.0"
+description = "An app that scraps data about WING25"
+authors = ["luismaiabr.np550xda <luismaiasombra@gmail.com>"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.28.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
